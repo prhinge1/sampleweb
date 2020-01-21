@@ -9,7 +9,7 @@ public class LoginController {
 	@RequestMapping("/login")
 	public String getLoginPage() {
 		System.out.println("HI");
-		return "/login";
+		return "login";
 	}
 
 }
